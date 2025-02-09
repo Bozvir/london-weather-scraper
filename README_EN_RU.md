@@ -43,6 +43,7 @@ Date, T°C now, Current conditions, T°C during the day, T°C at night
 ...
 
 RU Русский
+
 Как это работает
 Скрипт извлекает данные о погоде с указанного URL и парсит следующие данные:
 
