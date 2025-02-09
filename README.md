@@ -18,6 +18,7 @@ to:
 schedule.every(4).hours.do(parse_weather)
 
 
+
 Other possible intervals:
 
 
@@ -29,8 +30,13 @@ schedule.every().day — once a day
 
 
 Output
+
 The data will be saved in a CSV file with the following structure:
+
 Date, T°C now, Current conditions, T°C during the day, T°C at night
+
 2025-02-09 10:30:00, 10°C, Clear, 12°C, 8°C
+
 2025-02-09 10:31:00, 10°C, Clear, 12°C, 8°C
+
 ...
