@@ -77,6 +77,9 @@ schedule.every().day — раз в день
 Данные будут сохраняться в CSV файл с такой структурой:
 
 Date, T°C now, Current conditions, T°C during the day, T°C at night
+
 2025-02-09 10:30:00, 10°C, Clear, 12°C, 8°C
+
 2025-02-09 10:31:00, 10°C, Clear, 12°C, 8°C
+
 ...
