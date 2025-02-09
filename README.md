@@ -10,14 +10,23 @@ Interval Configuration
 By default, the script is configured to run every minute for quick testing and development purposes. You can modify the interval by changing the scheduling in the schedule.every() function.
 
 For example, to run the scraper every 4 hours, change the following line:
+
 schedule.every(1).minute.do(parse_weather)
+
 to:
+
 schedule.every(4).hours.do(parse_weather)
+
+
 Other possible intervals:
 
+
 schedule.every(10).seconds — every 10 seconds
+
 schedule.every().hour — every hour
+
 schedule.every().day — once a day
+
 
 Output
 The data will be saved in a CSV file with the following structure:
